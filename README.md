@@ -14,13 +14,6 @@ A PHP script that allows Kurdish users to fetch and inspect website information 
 - Fetches IP location, ISP, and other metadata from ip-api.com
 - Error messages and prompts shown in Kurdish for local users
 
-## Usage
-
-1. Upload `url_info.php` (or your chosen filename) to a PHP-enabled web server.
-2. Access the script in a browser.
-3. Enter the URL and select the HTTP method.
-4. Submit the form to see detailed response and IP info.
-5. Errors and messages will appear in Kurdish.
 
 ## Requirements
 
