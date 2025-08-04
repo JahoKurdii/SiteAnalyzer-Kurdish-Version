@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'jahdgulli';
+    src: url('jahdgulli.ttf');
+}
+
+body {
+    font-family: 'jahdgulli';
+}
+
+.jahdgulli {
+    font-family: 'jahdgulli';
+}
+
+/* Custom CSS for the spider button background */
+.spider-button {
+    /* Using a generic placeholder for the button spider, as the provided SVG is complex for a small background */
+    background-image: url('/placeholder.svg?height=24&width=24');
+    background-size: 18px;
+    /* Adjust size as needed */
+    background-position: 12px center;
+    /* Position the spider icon */
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    /* Make space for the icon */
+}
+
+.spider-button:hover {
+    background-position: 8px center;
+    /* Slight movement on hover */
+}
+
+/* Loading overlay styles */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent black */
+    display: flex;
+    flex-direction: column;
+    /* Changed to column for text below spinner */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    /* Hidden by default */
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.loading-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.loading-spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    width: 100%;
+    box-sizing: border-box;
+    /* Include padding in width */
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
