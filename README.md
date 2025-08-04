@@ -1,6 +1,8 @@
 Preview : 
+<img width="1101" height="483" alt="image" src="https://github.com/user-attachments/assets/42633af1-661a-4bf0-8a9a-cc84d85bcbec" />
+<img width="899" height="917" alt="image" src="https://github.com/user-attachments/assets/344bcc2a-30a1-40bd-bec0-cf0b1b4c4b6a" />
+<img width="1892" height="897" alt="image" src="https://github.com/user-attachments/assets/24447d75-16b1-45a6-b5e4-66f49c9bf622" />
 
-<img width="1920" height="925" alt="image" src="https://github.com/user-attachments/assets/ffb57cd6-8d82-45b2-8b54-e8a8e8c1c8ea" />
 # Kurdish URL Info Tool (PHP)
 
 A PHP script that allows Kurdish users to fetch and inspect website information by entering a URL and HTTP method (GET or POST). It retrieves the website’s headers, body, HTTP status code, and resolves the IP address, then shows location and ISP details using the ip-api.com service.
